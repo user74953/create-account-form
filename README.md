@@ -1,4 +1,4 @@
-Sign Up Form Validator
+##Sign Up Form Validator
 
 A simple, sign-up form built using **HTML, CSS, and JavaScript**. This project features basic client-side validation, password visibility toggles, and clean UI theme.
 
