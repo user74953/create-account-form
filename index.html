@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Create Account</h1>
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="email" placeholder="Email" />
+
+    <input type="password" id="password" placeholder="Password" />
+    <div class="toggle-password" onclick="togglePassword('password')">Show Password</div>
+
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" />
+    <div class="toggle-password" onclick="togglePassword('confirmPassword')">Show Password</div>
+
+    <button onclick="validateForm()">Create Account</button>
+    <div class="message" id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
